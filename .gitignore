@@ -1,0 +1,49 @@
+# Default ignored files
+/shelf/
+/.idea/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# ignore idea files
+.idea/
+# ignore iml files
+*.iml
+/.hugo_build.lock
+
+# Hugo-specific
+/public/
+/resources/_gen/
+/hugo_stats.json
+
+# Dependency directories (remove if you track these)
+/node_modules/
+
+# Local configuration files
+/config.toml
+/config.yaml
+/config.json
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+.vscode/
+*.sublime*
+
+# Backup files
+*.bak
+*.tmp
+*.swp
+
+# Log files
+*.log
+
+# Output of the exampleSite (Hugo Themes)
+/exampleSite/resources/
+/exampleSite/public/
+
+

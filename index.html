@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retypeme</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <style>
+        body {
+            display: flex;
+            min-height: 100vh;
+            flex-direction: column;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        main {
+            flex: 1 0 auto;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .center-btn {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .toggle-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+        }
+    </style>
+</head>
+<body class="blue-grey lighten-5">
+<header>
+    <nav class="blue darken-3">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo center">Retypeme</a>
+            <a href="#" onclick="toggleTheme()" class="btn-small blue toggle-btn">Toggle Theme</a>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <h2>Welcome to Retypeme!</h2>
+        <p>Challenge your typing skills and race against time!</p>
+        <div class="center-btn">
+            <a href="https://retypeme.xyz" class="waves-effect waves-light btn">Official Website</a>
+            <a href="https://retypeme.vercel.app" class="waves-effect waves-light btn">Try it on Vercel</a>
+        </div>
+        <h5>Supported Chain Networks</h5>
+        <div class="center-btn">
+            <a href="https://docs.bnbchain.org/" class="waves-effect waves-light btn">BNB Chain</a>
+            <a href="https://docs.polygon.technology/" class="waves-effect waves-light btn">Polygon</a>
+            <a href="https://docs.scroll.io/" class="waves-effect waves-light btn">Scroll</a>
+            <a href="https://docs.blast.io/about-blast" class="waves-effect waves-light btn">Blast</a>
+        </div>
+    </div>
+</main>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+  function toggleTheme() {
+    document.body.classList.toggle('dark-mode');
+    if (document.body.classList.contains('dark-mode')) {
+      document.body.style.backgroundColor = '#121212'; // Very dark grey for background
+      document.body.style.color = '#101010'; // Soft white for text
+      document.querySelectorAll('.nav-wrapper, .btn').forEach(el => {
+        el.classList.add('deep-orange');
+        el.classList.remove('blue');
+      });
+    } else {
+      document.body.style.backgroundColor = '';
+      document.body.style.color = '';
+      document.querySelectorAll('.nav-wrapper, .btn').forEach(el => {
+        el.classList.remove('deep-orange');
+        el.classList.add('blue');
+      });
+    }
+  }
+</script>
+</body>
+</html>
