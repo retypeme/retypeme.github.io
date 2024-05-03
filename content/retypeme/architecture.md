@@ -1,9 +1,9 @@
 ---
-
+title: Architecture
+description: "Architecture of the RetypeMe project"
 ---
 
 
-# Architecture
 ![Architecture](/architecture.svg)
 
 ## Backend - Blockchain communication

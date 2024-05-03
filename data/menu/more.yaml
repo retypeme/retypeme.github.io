@@ -1,0 +1,21 @@
+---
+more:
+  - name: News
+    ref: "/#"
+    icon: "gdoc_notification"
+  - name: Releases
+    ref: "https://github.com/t0lia/RetypeMe/tags"
+    external: true
+    icon: "gdoc_download"
+  - name: "Project"
+    ref: "https://github.com/t0lia/RetypeMe"
+    external: true
+    icon: "gdoc_github"
+  - name: "Smart-Contract"
+    ref: "https://github.com/mezger75/RetypemeSC"
+    external: true
+    icon: "gdoc_github"
+  - name: "Docs"
+    ref: "https://github.com/retypeme/retypeme.github.io"
+    external: true
+    icon: "gdoc_github"

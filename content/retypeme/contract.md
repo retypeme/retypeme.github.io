@@ -27,19 +27,6 @@ title: "Contract"
 ### Deployed Contracts
 
 {{< tabs "release_versions" >}}
-{{< tab "v1.0" >}}
-
-#### Version 1.0 - 01.03.2024
-
-| Network   | Contract Address                           |
-|-----------|--------------------------------------------|
-| Blast     | 0xf813b4e5d34079ebcc59adf39a7782ad989891fe |
-| Scroll    | Not available                              |
-| Polygon   | 0xb3c33b58de859a5e06aff62c9d66319c256218da |
-| BNB Chain | Not available                              |
-
-{{< /tab >}}
-
 {{< tab "v2.0" >}}
 
 #### Version 2.0 - 27.04.2024
@@ -49,6 +36,19 @@ title: "Contract"
 | Blast     | 0x993558c22ebe07c96e8f85d1ef4318c513abff0d |
 | Scroll    | 0x078869dd68d019900098b5b1006951ea7b3f01f2 |
 | Polygon   | 0x993558c22ebe07c96e8f85d1ef4318c513abff0d |
+| BNB Chain | Not available                              |
+
+{{< /tab >}}
+
+{{< tab "v1.0" >}}
+
+#### Version 1.0 - 01.03.2024
+
+| Network   | Contract Address                           |
+|-----------|--------------------------------------------|
+| Blast     | 0xf813b4e5d34079ebcc59adf39a7782ad989891fe |
+| Scroll    | Not available                              |
+| Polygon   | 0xb3c33b58de859a5e06aff62c9d66319c256218da |
 | BNB Chain | Not available                              |
 
 {{< /tab >}}
