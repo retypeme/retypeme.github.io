@@ -7,15 +7,16 @@ title: "Contract"
 ## Test wallets
 
 | Value    | Hash                                       |
-|----------|--------------------------------------------|
+| -------- | ------------------------------------------ |
 | creator  | 0x93bfAD49c590A4E1f06A67EfbD4c90F94f501a85 |
 | ap.test1 | 0xb4352Cf87739c3E494fd8fC405510dA02b61f66E |
 | ap.test2 | 0x5057376A02B717e8B262C6fad5166c17e194D277 |
+| ik.test1 | 0x470Eb274064Dc3134470DC0CB85f7c6E87164C18 |
 
 ## Testnets
 
 | chain            | block explorer                     | Chain ID  | RPC URL                                              |
-|------------------|------------------------------------|-----------|------------------------------------------------------|
+| ---------------- | ---------------------------------- | --------- | ---------------------------------------------------- |
 | blast-sepolia    | https://testnet.blastscan.io/      | 168587773 | https://blast-sepolia.infura.io/v3/{api-key}         |
 | polygon-amoy     | https://www.oklink.com/amoy        | 80002     | https://polygon-amoy.infura.io/v3/{api-key}          |
 | etherium-sepolia | https://sepolia.etherscan.io/      | 31337     | https://sepolia.infura.io/v3/{api-key}               |
@@ -32,7 +33,7 @@ title: "Contract"
 #### Version 2.0 - 27.04.2024
 
 | Network   | Contract Address                           |
-|-----------|--------------------------------------------|
+| --------- | ------------------------------------------ |
 | Blast     | 0x993558c22ebe07c96e8f85d1ef4318c513abff0d |
 | Scroll    | 0x078869dd68d019900098b5b1006951ea7b3f01f2 |
 | Polygon   | 0x993558c22ebe07c96e8f85d1ef4318c513abff0d |
@@ -45,7 +46,7 @@ title: "Contract"
 #### Version 1.0 - 01.03.2024
 
 | Network   | Contract Address                           |
-|-----------|--------------------------------------------|
+| --------- | ------------------------------------------ |
 | Blast     | 0xf813b4e5d34079ebcc59adf39a7782ad989891fe |
 | Scroll    | Not available                              |
 | Polygon   | 0xb3c33b58de859a5e06aff62c9d66319c256218da |
@@ -57,6 +58,7 @@ title: "Contract"
 ### Source code for latest contract version
 
 {{< expand "v2.0"  >}}
+
 ```solidity
 // SPDX-License-Identifier: MIT
 
@@ -227,4 +229,5 @@ contract GamingContract is IGamingContract {
     }
 }
 ```
+
 {{< /expand >}}
