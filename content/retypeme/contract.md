@@ -15,13 +15,13 @@ title: "Contract"
 
 ## Testnets
 
-| chain            | block explorer                     | Chain ID  | RPC URL                                              |
-| ---------------- | ---------------------------------- | --------- | ---------------------------------------------------- |
-| blast-sepolia    | https://testnet.blastscan.io/      | 168587773 | https://blast-sepolia.infura.io/v3/{api-key}         |
-| polygon-amoy     | https://www.oklink.com/amoy        | 80002     | https://polygon-amoy.infura.io/v3/{api-key}          |
-| etherium-sepolia | https://sepolia.etherscan.io/      | 31337     | https://sepolia.infura.io/v3/{api-key}               |
-| scroll-sepolia   | https://sepolia.scrollscan.com/    | 534351    | https://scroll-sepolia.core.chainstack.com/{api-key} |
-| opbnb-testnet    | https://opbnb-testnet.bscscan.com/ | 5611      | ??                                                   |
+| Chain            | Block explorer                                                                                      | Chain ID                                                           | RPC URL                                              |
+|------------------|-----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|------------------------------------------------------|
+| blast-sepolia    | [testnet.blastscan.io](https://testnet.blastscan.io)                                                | [168587773](https://chainlist.org/?testnets=true&search=168587773) | https://blast-sepolia.infura.io/v3/{api-key}         |
+| polygon-amoy     | [oklink.com/amoy](https://www.oklink.com/amoy)                                                      | [80002](https://chainlist.org/?testnets=true&search=80002)         | https://polygon-amoy.infura.io/v3/{api-key}          |
+| etherium-sepolia | [sepolia.etherscan.io](https://sepolia.etherscan.io)                                                | [31337](https://chainlist.org/?testnets=true&search=31337)         | https://sepolia.infura.io/v3/{api-key}               |
+| scroll-sepolia   | [sepolia.scrollscan.com](https://sepolia.scrollscan.com)                                            | [534351](https://chainlist.org/?testnets=true&search=534351)       | https://scroll-sepolia.core.chainstack.com/{api-key} |
+| opbnb-testnet    | [testnet.opbnbscan.com](http://testnet.opbnbscan.com/),[opbnbscan.com/tx](https://opbnbscan.com/tx) | [5611](https://chainlist.org/?testnets=true&search=5611)           | https://opbnb-testnet-rpc.bnbchain.org               |
 
 ## Contract
 
@@ -58,7 +58,6 @@ title: "Contract"
 ### Source code for latest contract version
 
 {{< expand "v2.0"  >}}
-
 ```solidity
 // SPDX-License-Identifier: MIT
 
@@ -229,5 +228,4 @@ contract GamingContract is IGamingContract {
     }
 }
 ```
-
 {{< /expand >}}
