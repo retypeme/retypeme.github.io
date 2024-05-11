@@ -32,12 +32,12 @@ title: "Contract"
 
 #### Version 2.0 - 27.04.2024
 
-| Network   | Contract Address                           |
-|-----------|--------------------------------------------|
-| Blast     | 0x993558c22ebe07c96e8f85d1ef4318c513abff0d |
-| Scroll    | 0x078869dd68d019900098b5b1006951ea7b3f01f2 |
-| Polygon   | 0x993558c22ebe07c96e8f85d1ef4318c513abff0d |
-| BNB Chain | Not available                              |
+| Network   | Contract Address                                                                                                                |
+|-----------|---------------------------------------------------------------------------------------------------------------------------------|
+| Blast     | [0xb3c33b58de859a5e06aff62c9d66319c256218da](https://testnet.blastscan.io/address/0xb3c33b58de859a5e06aff62c9d66319c256218da)   |
+| Scroll    | [0x078869dd68d019900098b5b1006951ea7b3f01f2](https://sepolia.scrollscan.com/address/0x078869dd68d019900098b5b1006951ea7b3f01f2) |
+| Polygon   | [0x993558c22ebe07c96e8f85d1ef4318c513abff0d](https://www.oklink.com/amoy/address/0x993558c22ebe07c96e8f85d1ef4318c513abff0d)    |
+| BNB Chain | [0x1e3248d540B0c177047ec17592A42C5747F050a1](http://testnet.opbnbscan.com/address/0x1e3248d540B0c177047ec17592A42C5747F050a1)   |
 
 {{< /tab >}}
 
